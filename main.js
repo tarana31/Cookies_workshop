@@ -39,14 +39,17 @@ function total() {
 }
 
 function reset() {
-    
+    count=0;
+    choco_count=0;
+    lem_count=0;
     Cookies.set('sugarCookie',0);
+   // sugar = parseInt(Cookies.get('sugarCookie'));
     document.querySelector('#displaycount').innerHTML = "Sugar:";
     Cookies.set('chocoCookie',0);
     document.querySelector('#displaycount1').innerHTML = "Chocolate:";
     Cookies.set('lemonCookie',0);
     document.querySelector('#displaycount2').innerHTML = "Lemon:";
-    alert("nothing left");
+    // alert("nothing left");
     document.querySelector('#totalcount').innerHTML = "";
 }
 
