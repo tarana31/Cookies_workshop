@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <title>Cookies Hub</title>
+    <script src= "cookies.js"></script>
+</head>
+<body>
+    <div class= "header">
+        <!-- <h1 id = "heading"> Cookieeeeee.. Choose your Cookie.. </h1> -->
+        <img src="logo1.png" id="head_image">
+    </div>
+    <div class = "container">
+        <div id="sugar_key">
+            <button onclick="Scountcookie()"><img src='sugar.jpg'></button>
+            <h2><span id="displaycount"> </span> </h2>
+        </div>
+        <div id="Choco_key">
+            <button onclick="Ccountcookie()"><img class='Ccookie' src='abc.png'></button>
+            <h2><span id="displaycount1"> </span> </h2>
+        </div>
+        <div id="lemon_key">
+            <button onclick="Lcountcookie()"><img class='Lcookie' src='lemon.png'></button>
+            <h2><span id="displaycount2"> </span></h2>
+        </div>
+    </div>
+    <div class= "total">
+        <button onclick= "total()"><img src="total.png"> </button>
+        <h2><span id="totalcount"> </span> </h2>
+        <button onclick= "reset()"><img src="Reset1.png"> </button>
+    </div>
+    
+    <!-- <div class= "Quant">
+        <input type="number" name="quantity" min = "0" id= "Skey">
+        <input type="number" name="quantity" min="0" id="Ckey">
+        <input type="number" name="quantity" min="0" id="Lkey">
+    </div> -->
+    <script src= "main.js"></script>
+    
+</body>
+</html>
